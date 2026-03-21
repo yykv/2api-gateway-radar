@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2API Gateway Radar</title>
+  <style>
+    :root { --bg:#0b0f14; --card:#111826; --text:#e5e7eb; --muted:#9ca3af; --accent:#60a5fa; --chip:#1f2937; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:var(--bg); color:var(--text); }
+    header { padding:28px 18px 14px; max-width:1100px; margin:0 auto; }
+    h1 { margin:0 0 6px; font-size:22px; letter-spacing:0.2px; }
+    .sub { color:var(--muted); font-size:13px; line-height:1.4; }
+    .bar { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    input, select { background:#0f172a; color:var(--text); border:1px solid #243047; border-radius:10px; padding:10px 12px; font-size:14px; outline:none; }
+    input { min-width:260px; flex:1; }
+    main { max-width:1100px; margin:0 auto; padding:10px 18px 40px; }
+    .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap:12px; }
+    .card { grid-column: span 6; background:var(--card); border:1px solid #1f2a3d; border-radius:14px; padding:14px; }
+    @media (max-width: 860px){ .card { grid-column: span 12; } }
+    .top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .name a { color:var(--accent); text-decoration:none; font-weight:650; }
+    .meta { color:var(--muted); font-size:12px; white-space:nowrap; }
+    .desc { margin-top:10px; color:#cbd5e1; font-size:13px; line-height:1.45; }
+    .chips { margin-top:10px; display:flex; gap:6px; flex-wrap:wrap; }
+    .chip { background:var(--chip); border:1px solid #2b384f; color:#cbd5e1; padding:4px 8px; border-radius:999px; font-size:12px; }
+    .footer { margin-top:18px; color:var(--muted); font-size:12px; }
+    .pill { padding:2px 8px; border:1px solid #2b384f; border-radius:999px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2API Gateway Radar</h1>
+    <div class="sub">
+      收集 2API / relay / proxy / gateway / OpenAI-compatible 项目索引（重点：<span class="pill">Claude Sonnet</span> <span class="pill">OpenAI</span> <span class="pill">Gemini</span>）。
+      <br/>数据文件：<code>data/items.json</code>
+    </div>
+    <div class="bar">
+      <input id="q" placeholder="搜索：repo / 关键词 / 标签…" />
+      <select id="cat">
+        <option value="">全部分类</option>
+      </select>
+      <select id="model">
+        <option value="">全部模型焦点</option>
+        <option value="claude">Claude / Sonnet</option>
+        <option value="openai">OpenAI</option>
+        <option value="gemini">Gemini</option>
+      </select>
+      <select id="sort">
+        <option value="pushed">按最近推送</option>
+        <option value="stars">按 stars</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+    <div class="footer" id="foot"></div>
+  </main>
+
+<script>
+  async function load() {
+    const res = await fetch('../data/items.json');
+    const items = await res.json();
+
+    const catSel = document.getElementById('cat');
+    const cats = Array.from(new Set(items.map(x => x.category).filter(Boolean))).sort();
+    for (const c of cats) {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      catSel.appendChild(opt);
+    }
+
+    const state = { items };
+
+    const rerender = () => {
+      const q = (document.getElementById('q').value || '').toLowerCase().trim();
+      const cat = document.getElementById('cat').value;
+      const model = document.getElementById('model').value;
+      const sort = document.getElementById('sort').value;
+
+      let list = state.items.slice();
+
+      if (cat) list = list.filter(x => x.category === cat);
+
+      if (model) {
+        list = list.filter(x => {
+          const text = (JSON.stringify(x.models || []) + ' ' + JSON.stringify(x.tags || []) + ' ' + (x.summary || '')).toLowerCase();
+          if (model === 'claude') return text.includes('claude') || text.includes('sonnet') || text.includes('anthropic');
+          if (model === 'openai') return text.includes('openai') || text.includes('gpt');
+          if (model === 'gemini') return text.includes('gemini');
+          return true;
+        });
+      }
+
+      if (q) {
+        list = list.filter(x => {
+          const text = (
+            (x.full_name || '') + ' ' + (x.summary || '') + ' ' +
+            (x.category || '') + ' ' + (x.tags || []).join(' ') + ' ' + (x.models || []).join(' ')
+          ).toLowerCase();
+          return text.includes(q);
+        });
+      }
+
+      if (sort === 'stars') list.sort((a,b) => (b.stars||0) - (a.stars||0));
+      else list.sort((a,b) => String(b.pushed||'').localeCompare(String(a.pushed||'')));
+
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      for (const x of list) {
+        const div = document.createElement('div');
+        div.className = 'card';
+
+        const tags = (x.tags || []).slice(0, 8);
+        const models = (x.models || []).slice(0, 6);
+
+        div.innerHTML = `
+          <div class="top">
+            <div class="name"><a href="${x.url}" target="_blank" rel="noopener noreferrer">${x.full_name}</a></div>
+            <div class="meta">⭐ ${x.stars ?? 0} · 推送 ${x.pushed ?? ''}</div>
+          </div>
+          <div class="desc">${escapeHtml(x.summary || '')}</div>
+          <div class="chips">
+            <span class="chip">${escapeHtml(x.category || 'Uncategorized')}</span>
+            ${models.map(m => `<span class="chip">${escapeHtml(m)}</span>`).join('')}
+            ${tags.map(t => `<span class="chip">#${escapeHtml(t)}</span>`).join('')}
+          </div>
+        `;
+        grid.appendChild(div);
+      }
+
+      document.getElementById('foot').textContent = `共 ${list.length} 条`;
+    }
+
+    // Events
+    ['q','cat','model','sort'].forEach(id => document.getElementById(id).addEventListener('input', rerender));
+    ['cat','model','sort'].forEach(id => document.getElementById(id).addEventListener('change', rerender));
+
+    rerender();
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
+  load();
+</script>
+</body>
+</html>

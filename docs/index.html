@@ -59,7 +59,7 @@
 
 <script>
   async function load() {
-    const res = await fetch('../data/items.json');
+    const res = await fetch('./items.json');
     const items = await res.json();
 
     const catSel = document.getElementById('cat');

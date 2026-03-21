@@ -1,17 +1,5 @@
 [
   {
-    "name": "all-api-hub",
-    "owner": "qixing-jk",
-    "full_name": "qixing-jk/all-api-hub",
-    "url": "https://github.com/qixing-jk/all-api-hub",
-    "stars": 2299,
-    "pushed": "2026-03-21",
-    "summary": "一站式管理 New API 兼容中转站账号：余额/用量看板、自动签到、密钥导出、网页内 API 测试、渠道与模型同步/重定向（New‑API 相关）",
-    "tags": ["gateway", "2api", "new-api", "openai-compatible"],
-    "models": ["OpenAI-compatible"],
-    "category": "Gateway / 管理面板"
-  },
-  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",
@@ -19,9 +7,50 @@
     "stars": 7448,
     "pushed": "2026-03-21",
     "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、OpenAI、Gemini、Antigravity 订阅统一接入与分发。",
-    "tags": ["gateway", "2api", "claude", "openai", "gemini"],
-    "models": ["Claude", "OpenAI", "Gemini"],
+    "tags": [
+      "gateway",
+      "2api",
+      "claude",
+      "openai",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
     "category": "Gateway / 平台"
+  },
+  {
+    "name": "all-api-hub",
+    "owner": "qixing-jk",
+    "full_name": "qixing-jk/all-api-hub",
+    "url": "https://github.com/qixing-jk/all-api-hub",
+    "stars": 2300,
+    "pushed": "2026-03-21",
+    "summary": "一站式管理 New API 兼容中转站账号：余额/用量看板、自动签到、密钥一键导出到常用应用、网页内 API 可用性测试、渠道与模型同步/重定向 | New‑API relay manager: balance/usage, auto check‑in, one‑click key export to popular clients, in‑page API checks, channel/model sync & redirect",
+    "tags": [
+      "cc-switch",
+      "chatgpt",
+      "chatgpt-api",
+      "cherrystudio",
+      "claude",
+      "claude-code",
+      "cliproxyapi",
+      "codex",
+      "new-api",
+      "one-api",
+      "openai",
+      "sub2api",
+      "voapi"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-03-21"
   },
   {
     "name": "AntiHub-ALL",
@@ -31,57 +60,19 @@
     "stars": 416,
     "pushed": "2026-03-20",
     "summary": "基于 AntiHub 二开的 2API 综合平台，让 Claude、OpenAI、Gemini、AWS(Kiro) 的订阅发挥最大价值。",
-    "tags": ["gateway", "2api", "claude", "openai", "gemini"],
-    "models": ["Claude", "OpenAI", "Gemini"],
+    "tags": [
+      "gateway",
+      "2api",
+      "claude",
+      "openai",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
     "category": "Gateway / 平台"
-  },
-  {
-    "name": "q2api",
-    "owner": "CassiopeiaCode",
-    "full_name": "CassiopeiaCode/q2api",
-    "url": "https://github.com/CassiopeiaCode/q2api",
-    "stars": 265,
-    "pushed": "2026-01-19",
-    "summary": "Amazon Q Developer → OpenAI Chat Completions & Claude Messages 兼容桥接；README 示范 claude-sonnet-4.5。",
-    "tags": ["bridge", "claude", "sonnet", "openai-compatible"],
-    "models": ["Claude Sonnet 4.5"],
-    "category": "Bridge / 兼容层"
-  },
-  {
-    "name": "all-api-hub",
-    "owner": "qixing-jk",
-    "full_name": "qixing-jk/all-api-hub",
-    "url": "https://github.com/qixing-jk/all-api-hub",
-    "stars": 2299,
-    "pushed": "2026-03-21",
-    "summary": "(来自 2026-03-21 日更) New-API 兼容中转站账号管理面板。",
-    "tags": ["daily-pick"],
-    "models": ["OpenAI-compatible"],
-    "category": "Daily Picks"
-  },
-  {
-    "name": "gemini-business",
-    "owner": "linlee996",
-    "full_name": "linlee996/gemini-business",
-    "url": "https://github.com/linlee996/gemini-business",
-    "stars": 224,
-    "pushed": "2026-02-05",
-    "summary": "Google business 批量注册、Token 刷新、2API 服务。",
-    "tags": ["gemini", "2api"],
-    "models": ["Gemini"],
-    "category": "Gemini / Business"
-  },
-  {
-    "name": "business-gemini-2api",
-    "owner": "lulistart",
-    "full_name": "lulistart/business-gemini-2api",
-    "url": "https://github.com/lulistart/business-gemini-2api",
-    "stars": 126,
-    "pushed": "2026-01-17",
-    "summary": "business-gemini-2api：自动注册、自动保活 cookie。",
-    "tags": ["gemini", "2api"],
-    "models": ["Gemini"],
-    "category": "Gemini / Business"
   },
   {
     "name": "grok-skill",
@@ -91,8 +82,13 @@
     "stars": 130,
     "pushed": "2026-03-14",
     "summary": "Codex skill：通过 OpenAI-compatible Grok endpoint 做研究（2api）。",
-    "tags": ["grok", "openai-compatible"],
-    "models": ["OpenAI-compatible"],
+    "tags": [
+      "grok",
+      "openai-compatible"
+    ],
+    "models": [
+      "OpenAI-compatible"
+    ],
     "category": "Tools / Skills"
   },
   {
@@ -103,8 +99,66 @@
     "stars": 161,
     "pushed": "2026-03-04",
     "summary": "ZAI/GLM TTS → OpenAI Speech API（免费语音合成 API，支持克隆音色）。",
-    "tags": ["tts", "openai"],
-    "models": ["OpenAI Speech API"],
+    "tags": [
+      "tts",
+      "openai"
+    ],
+    "models": [
+      "OpenAI Speech API"
+    ],
     "category": "Audio / TTS"
+  },
+  {
+    "name": "gemini-business",
+    "owner": "linlee996",
+    "full_name": "linlee996/gemini-business",
+    "url": "https://github.com/linlee996/gemini-business",
+    "stars": 224,
+    "pushed": "2026-02-05",
+    "summary": "Google business 批量注册、Token 刷新、2API 服务。",
+    "tags": [
+      "gemini",
+      "2api"
+    ],
+    "models": [
+      "Gemini"
+    ],
+    "category": "Gemini / Business"
+  },
+  {
+    "name": "q2api",
+    "owner": "CassiopeiaCode",
+    "full_name": "CassiopeiaCode/q2api",
+    "url": "https://github.com/CassiopeiaCode/q2api",
+    "stars": 265,
+    "pushed": "2026-01-19",
+    "summary": "Amazon Q Developer → OpenAI Chat Completions & Claude Messages 兼容桥接；README 示范 claude-sonnet-4.5。",
+    "tags": [
+      "bridge",
+      "claude",
+      "sonnet",
+      "openai-compatible"
+    ],
+    "models": [
+      "Claude Sonnet 4.5"
+    ],
+    "category": "Bridge / 兼容层"
+  },
+  {
+    "name": "business-gemini-2api",
+    "owner": "lulistart",
+    "full_name": "lulistart/business-gemini-2api",
+    "url": "https://github.com/lulistart/business-gemini-2api",
+    "stars": 126,
+    "pushed": "2026-01-17",
+    "summary": "business-gemini-2api：自动注册、自动保活 cookie。",
+    "tags": [
+      "gemini",
+      "2api"
+    ],
+    "models": [
+      "Gemini"
+    ],
+    "category": "Gemini / Business"
   }
 ]

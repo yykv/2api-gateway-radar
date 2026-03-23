@@ -1,5 +1,52 @@
 [
   {
+    "name": "sub2apipay",
+    "owner": "touwaeriol",
+    "full_name": "touwaeriol/sub2apipay",
+    "url": "https://github.com/touwaeriol/sub2apipay",
+    "stars": 99,
+    "pushed": "2026-03-22",
+    "summary": "Sub2API 自托管充值支付网关 — EasyPay 易支付聚合、支付宝官方、微信官方、Stripe 四渠道支付，自动到账 | Self-hosted payment gateway for Sub2API — EasyPay, Alipay, WeChat Pay & Stripe with auto balance credit",
+    "tags": [
+      "alipay",
+      "docker",
+      "easypay",
+      "nextjs",
+      "payment-gateway",
+      "self-hosted",
+      "stripe",
+      "sub2api",
+      "wechat-pay"
+    ],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-03-23"
+  },
+  {
+    "name": "codex-sub2api-debug",
+    "owner": "nick20100930-pixel",
+    "full_name": "nick20100930-pixel/codex-sub2api-debug",
+    "url": "https://github.com/nick20100930-pixel/codex-sub2api-debug",
+    "stars": 1,
+    "pushed": "2026-03-22",
+    "summary": "CLI and local GUI for safely scanning and cleaning exhausted Sub2API OpenAI OAuth accounts",
+    "tags": [
+      "automation",
+      "cli",
+      "gui",
+      "nodejs",
+      "openai",
+      "sub2api"
+    ],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-03-23"
+  },
+  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",

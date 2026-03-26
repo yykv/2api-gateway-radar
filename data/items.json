@@ -1,5 +1,19 @@
 [
   {
+    "name": "sub2api_proxy",
+    "owner": "XiaoPiHong",
+    "full_name": "XiaoPiHong/sub2api_proxy",
+    "url": "https://github.com/XiaoPiHong/sub2api_proxy",
+    "stars": 0,
+    "pushed": "2026-03-25",
+    "summary": "",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-03-26"
+  },
+  {
     "name": "sub2api",
     "owner": "DR-lin-eng",
     "full_name": "DR-lin-eng/sub2api",

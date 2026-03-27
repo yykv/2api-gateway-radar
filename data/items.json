@@ -1,5 +1,37 @@
 [
   {
+    "name": "smithery-2api",
+    "owner": "ZaClown122",
+    "full_name": "ZaClown122/smithery-2api",
+    "url": "https://github.com/ZaClown122/smithery-2api",
+    "stars": 2,
+    "pushed": "2026-03-26",
+    "summary": "🤖 Transform Smithery.ai's AI capabilities into a seamless OpenAI API format, enabling easy integration into your applications.",
+    "tags": [
+      "api",
+      "backend",
+      "database",
+      "express",
+      "integration",
+      "javascript",
+      "json",
+      "microservices",
+      "middleware",
+      "nodejs",
+      "open-source",
+      "rest-api",
+      "smithery",
+      "testing",
+      "web-development"
+    ],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-03-27"
+  },
+  {
     "name": "sub2api_proxy",
     "owner": "XiaoPiHong",
     "full_name": "XiaoPiHong/sub2api_proxy",

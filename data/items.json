@@ -1,5 +1,33 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 8854,
+    "pushed": "2026-03-27",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-03-28"
+  },
+  {
     "name": "smithery-2api",
     "owner": "ZaClown122",
     "full_name": "ZaClown122/smithery-2api",
@@ -147,28 +175,6 @@
     "first_seen": "2026-03-23"
   },
   {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 7448,
-    "pushed": "2026-03-21",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、OpenAI、Gemini、Antigravity 订阅统一接入与分发。",
-    "tags": [
-      "gateway",
-      "2api",
-      "claude",
-      "openai",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台"
-  },
-  {
     "name": "all-api-hub",
     "owner": "qixing-jk",
     "full_name": "qixing-jk/all-api-hub",
@@ -204,22 +210,25 @@
     "owner": "zhongruan0522",
     "full_name": "zhongruan0522/AntiHub-ALL",
     "url": "https://github.com/zhongruan0522/AntiHub-ALL",
-    "stars": 416,
+    "stars": 422,
     "pushed": "2026-03-20",
-    "summary": "基于 AntiHub 二开的 2API 综合平台，让 Claude、OpenAI、Gemini、AWS(Kiro) 的订阅发挥最大价值。",
+    "summary": "基于AntiHub二开的2API综合性平台，全代码开源，让 Claude、Openai 、Gemini、AWS(Kiro)的订阅套餐发挥最大价值，原生工具无缝使用。",
     "tags": [
-      "gateway",
-      "2api",
-      "claude",
-      "openai",
-      "gemini"
+      "antigravity",
+      "antihub",
+      "codex-cli",
+      "gemini",
+      "gemini-cli",
+      "kiro"
     ],
     "models": [
       "Claude",
       "OpenAI",
       "Gemini"
     ],
-    "category": "Gateway / 平台"
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-03-28"
   },
   {
     "name": "grok-skill",
@@ -277,19 +286,24 @@
     "owner": "CassiopeiaCode",
     "full_name": "CassiopeiaCode/q2api",
     "url": "https://github.com/CassiopeiaCode/q2api",
-    "stars": 265,
+    "stars": 266,
     "pushed": "2026-01-19",
-    "summary": "Amazon Q Developer → OpenAI Chat Completions & Claude Messages 兼容桥接；README 示范 claude-sonnet-4.5。",
+    "summary": "Amazon Q to API Bridge：一个使用 FastAPI 实现的桥接服务，将 Amazon Q Developer 变成兼容 OpenAI Chat Completions 和 Claude Messages 的 API，支持多账号管理、随机负载均衡和流式响应。",
     "tags": [
-      "bridge",
+      "2api",
+      "amazonq",
       "claude",
-      "sonnet",
-      "openai-compatible"
+      "fastapi",
+      "new-api",
+      "one-api"
     ],
     "models": [
-      "Claude Sonnet 4.5"
+      "Claude",
+      "OpenAI"
     ],
-    "category": "Bridge / 兼容层"
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-03-28"
   },
   {
     "name": "business-gemini-2api",

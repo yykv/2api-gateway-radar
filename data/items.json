@@ -252,34 +252,42 @@
     "owner": "aahl",
     "full_name": "aahl/zai-tts",
     "url": "https://github.com/aahl/zai-tts",
-    "stars": 161,
+    "stars": 169,
     "pushed": "2026-03-04",
-    "summary": "ZAI/GLM TTS → OpenAI Speech API（免费语音合成 API，支持克隆音色）。",
+    "summary": "🗣️ ZAI/GLM TTS to OpenAI Speech API, 免费的语音合成API，支持克隆音色，基于智谱TTS",
     "tags": [
+      "2api",
+      "glm",
+      "glm-tts",
+      "openai",
+      "speech",
+      "text-to-speech",
       "tts",
-      "openai"
+      "tts-api",
+      "zai"
     ],
     "models": [
-      "OpenAI Speech API"
+      "OpenAI"
     ],
-    "category": "Audio / TTS"
+    "category": "Audio / TTS",
+    "source": "daily-scout",
+    "first_seen": "2026-03-29"
   },
   {
     "name": "gemini-business",
     "owner": "linlee996",
     "full_name": "linlee996/gemini-business",
     "url": "https://github.com/linlee996/gemini-business",
-    "stars": 224,
+    "stars": 233,
     "pushed": "2026-02-05",
-    "summary": "Google business 批量注册、Token 刷新、2API 服务。",
-    "tags": [
-      "gemini",
-      "2api"
-    ],
+    "summary": "集成了 google business 批量注册、Token 刷新、2API 的服务",
+    "tags": [],
     "models": [
       "Gemini"
     ],
-    "category": "Gemini / Business"
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-03-29"
   },
   {
     "name": "q2api",
@@ -310,16 +318,15 @@
     "owner": "lulistart",
     "full_name": "lulistart/business-gemini-2api",
     "url": "https://github.com/lulistart/business-gemini-2api",
-    "stars": 126,
+    "stars": 131,
     "pushed": "2026-01-17",
-    "summary": "business-gemini-2api：自动注册、自动保活 cookie。",
-    "tags": [
-      "gemini",
-      "2api"
-    ],
+    "summary": "business-gemini-2api，自动注册，自动保活cookie",
+    "tags": [],
     "models": [
       "Gemini"
     ],
-    "category": "Gemini / Business"
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-03-29"
   }
 ]

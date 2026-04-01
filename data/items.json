@@ -1,5 +1,45 @@
 [
   {
+    "name": "sub2apipay",
+    "owner": "touwaeriol",
+    "full_name": "touwaeriol/sub2apipay",
+    "url": "https://github.com/touwaeriol/sub2apipay",
+    "stars": 163,
+    "pushed": "2026-03-31",
+    "summary": "Sub2API 自托管充值支付网关 — EasyPay 易支付聚合、支付宝官方、微信官方、Stripe 四渠道支付，自动到账 | Self-hosted payment gateway for Sub2API — EasyPay, Alipay, WeChat Pay & Stripe with auto balance credit",
+    "tags": [
+      "alipay",
+      "docker",
+      "easypay",
+      "nextjs",
+      "payment-gateway",
+      "self-hosted",
+      "stripe",
+      "sub2api",
+      "wechat-pay"
+    ],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-01"
+  },
+  {
+    "name": "sub2apiClaudeSource",
+    "owner": "DMH695",
+    "full_name": "DMH695/sub2apiClaudeSource",
+    "url": "https://github.com/DMH695/sub2apiClaudeSource",
+    "stars": 0,
+    "pushed": "2026-03-31",
+    "summary": "",
+    "tags": [],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-01"
+  },
+  {
     "name": "metapi",
     "owner": "cita-777",
     "full_name": "cita-777/metapi",
@@ -140,30 +180,6 @@
     "category": "Gateway / 管理面板",
     "source": "daily-scout",
     "first_seen": "2026-03-24"
-  },
-  {
-    "name": "sub2apipay",
-    "owner": "touwaeriol",
-    "full_name": "touwaeriol/sub2apipay",
-    "url": "https://github.com/touwaeriol/sub2apipay",
-    "stars": 99,
-    "pushed": "2026-03-22",
-    "summary": "Sub2API 自托管充值支付网关 — EasyPay 易支付聚合、支付宝官方、微信官方、Stripe 四渠道支付，自动到账 | Self-hosted payment gateway for Sub2API — EasyPay, Alipay, WeChat Pay & Stripe with auto balance credit",
-    "tags": [
-      "alipay",
-      "docker",
-      "easypay",
-      "nextjs",
-      "payment-gateway",
-      "self-hosted",
-      "stripe",
-      "sub2api",
-      "wechat-pay"
-    ],
-    "models": [],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-03-23"
   },
   {
     "name": "codex-sub2api-debug",

@@ -1,5 +1,49 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 10122,
+    "pushed": "2026-04-03",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-04"
+  },
+  {
+    "name": "claude-code-gateway",
+    "owner": "MamoWorks",
+    "full_name": "MamoWorks/claude-code-gateway",
+    "url": "https://github.com/MamoWorks/claude-code-gateway",
+    "stars": 29,
+    "pushed": "2026-04-03",
+    "summary": "参考sub2api和cc-gateway",
+    "tags": [],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-04"
+  },
+  {
     "name": "sub2apipay",
     "owner": "touwaeriol",
     "full_name": "touwaeriol/sub2apipay",
@@ -52,34 +96,6 @@
     "category": "Gateway / 管理面板",
     "source": "daily-scout",
     "first_seen": "2026-03-30"
-  },
-  {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 8854,
-    "pushed": "2026-03-27",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-03-28"
   },
   {
     "name": "smithery-2api",

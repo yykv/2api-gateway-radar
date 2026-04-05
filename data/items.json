@@ -1,5 +1,111 @@
 [
   {
+    "name": "metapi",
+    "owner": "cita-777",
+    "full_name": "cita-777/metapi",
+    "url": "https://github.com/cita-777/metapi",
+    "stars": 1715,
+    "pushed": "2026-04-05",
+    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-04-06"
+  },
+  {
+    "name": "notion-2api",
+    "owner": "b0b11s",
+    "full_name": "b0b11s/notion-2api",
+    "url": "https://github.com/b0b11s/notion-2api",
+    "stars": 6,
+    "pushed": "2026-04-05",
+    "summary": "🚀 Transform Notion AI into a private OpenAI API seamlessly, enabling powerful application integration without complex setup.",
+    "tags": [
+      "api-integration",
+      "automation",
+      "backend-integration",
+      "client-library",
+      "collaboration",
+      "data-synchronization",
+      "documentation",
+      "javascript",
+      "notes-management",
+      "notion-api",
+      "open-source",
+      "productivity-tools",
+      "sdk",
+      "typescript",
+      "webhooks"
+    ],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-06"
+  },
+  {
+    "name": "mimo-2api",
+    "owner": "rong6",
+    "full_name": "rong6/mimo-2api",
+    "url": "https://github.com/rong6/mimo-2api",
+    "stars": 1,
+    "pushed": "2026-04-05",
+    "summary": "🔁把 Xiaomi MiMo Studio网页端对话 API 转为标准 OpenAI Chat Completions 格式，支持多账号负载均衡。",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-06"
+  },
+  {
+    "name": "sub2api",
+    "owner": "atoz03",
+    "full_name": "atoz03/sub2api",
+    "url": "https://github.com/atoz03/sub2api",
+    "stars": 0,
+    "pushed": "2026-04-05",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-06"
+  },
+  {
+    "name": "codex-auto-register",
+    "owner": "Vladilena727",
+    "full_name": "Vladilena727/codex-auto-register",
+    "url": "https://github.com/Vladilena727/codex-auto-register",
+    "stars": 0,
+    "pushed": "2026-04-05",
+    "summary": "Automate Codex account registration, email verification, and sub2api conversion with a Python CLI and web interface for batch workflows",
+    "tags": [
+      "auto-register",
+      "chatgpt",
+      "codex",
+      "codex-cli",
+      "codex-free",
+      "oauth",
+      "openai",
+      "playwright",
+      "token"
+    ],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-06"
+  },
+  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",
@@ -82,20 +188,6 @@
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-04-01"
-  },
-  {
-    "name": "metapi",
-    "owner": "cita-777",
-    "full_name": "cita-777/metapi",
-    "url": "https://github.com/cita-777/metapi",
-    "stars": 1398,
-    "pushed": "2026-03-29",
-    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
-    "tags": [],
-    "models": [],
-    "category": "Gateway / 管理面板",
-    "source": "daily-scout",
-    "first_seen": "2026-03-30"
   },
   {
     "name": "smithery-2api",

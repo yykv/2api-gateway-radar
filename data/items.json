@@ -1,5 +1,31 @@
 [
   {
+    "name": "sub2api-grok",
+    "owner": "yunfanxing6",
+    "full_name": "yunfanxing6/sub2api-grok",
+    "url": "https://github.com/yunfanxing6/sub2api-grok",
+    "stars": 0,
+    "pushed": "2026-04-07",
+    "summary": "Sub2API v0.1.108 fork with first-class Grok platform integration",
+    "tags": [
+      "api-gateway",
+      "golang",
+      "grok",
+      "grok2api",
+      "openai-compatible",
+      "sub2api",
+      "vue",
+      "xai"
+    ],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-04-08"
+  },
+  {
     "name": "metapi",
     "owner": "cita-777",
     "full_name": "cita-777/metapi",

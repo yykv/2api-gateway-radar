@@ -26,6 +26,23 @@
     "first_seen": "2026-04-08"
   },
   {
+    "name": "replit-2api",
+    "owner": "xingyu42",
+    "full_name": "xingyu42/replit-2api",
+    "url": "https://github.com/xingyu42/replit-2api",
+    "stars": 0,
+    "pushed": "2026-04-07",
+    "summary": "Dual-provider AI reverse proxy (OpenAI + Anthropic) with React portal dashboard. Optimized for Claude Code integration.",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-04-09"
+  },
+  {
     "name": "metapi",
     "owner": "cita-777",
     "full_name": "cita-777/metapi",

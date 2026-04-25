@@ -1,5 +1,219 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 15243,
+    "pushed": "2026-04-25",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "windsurf-proxy-go",
+    "owner": "lookcorner",
+    "full_name": "lookcorner/windsurf-proxy-go",
+    "url": "https://github.com/lookcorner/windsurf-proxy-go",
+    "stars": 9,
+    "pushed": "2026-04-25",
+    "summary": "windsurf 2api,支持openai协议和anthropic协议。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "sub2api",
+    "owner": "DR-lin-eng",
+    "full_name": "DR-lin-eng/sub2api",
+    "url": "https://github.com/DR-lin-eng/sub2api",
+    "stars": 5,
+    "pushed": "2026-04-25",
+    "summary": "个人自用二开，主要是性能优化，但是由于代码差距过大，所以脱离fork。Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "gemini-business2api",
+    "owner": "yukkcat",
+    "full_name": "yukkcat/gemini-business2api",
+    "url": "https://github.com/yukkcat/gemini-business2api",
+    "stars": 1233,
+    "pushed": "2026-04-24",
+    "summary": "OpenAI-compatible API for Gemini Business with multi-account load balancing and multimodal capabilities (image/video generation, file parsing) | 将 Gemini Business 转为 OpenAI 兼容接口，支持多账户负载均衡及多模态能力（图像生成、视频生成、解析文件）",
+    "tags": [
+      "2api",
+      "business",
+      "chatgpt",
+      "gemini",
+      "openai"
+    ],
+    "models": [
+      "OpenAI",
+      "Gemini",
+      "OpenAI-compatible"
+    ],
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "openai-cpa",
+    "owner": "wenfxl",
+    "full_name": "wenfxl/openai-cpa",
+    "url": "https://github.com/wenfxl/openai-cpa",
+    "stars": 937,
+    "pushed": "2026-04-24",
+    "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API warehouses.",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "airgate-core",
+    "owner": "DouDOU-start",
+    "full_name": "DouDOU-start/airgate-core",
+    "url": "https://github.com/DouDOU-start/airgate-core",
+    "stars": 13,
+    "pushed": "2026-04-24",
+    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
+    "tags": [
+      "2api",
+      "account-sharing",
+      "ai-gateway",
+      "claude-2api",
+      "multi-account",
+      "openai-2api",
+      "plugin-system"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "sub2api_playground",
+    "owner": "meteor041",
+    "full_name": "meteor041/sub2api_playground",
+    "url": "https://github.com/meteor041/sub2api_playground",
+    "stars": 1,
+    "pushed": "2026-04-24",
+    "summary": "Sub2API Playground — A lightweight image generation proxy playground for OpenAI-compatible APIs.",
+    "tags": [],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "InfoHub",
+    "owner": "iwascy",
+    "full_name": "iwascy/InfoHub",
+    "url": "https://github.com/iwascy/InfoHub",
+    "stars": 1,
+    "pushed": "2026-04-24",
+    "summary": "AI 配额看板 / AI Quota Hub：聚合多个 AI 服务的配额与用量数据，提供 REST API 和电子墨水屏看板",
+    "tags": [
+      "ai-quota",
+      "ai-usage",
+      "claude-relay",
+      "eink-dashboard",
+      "go",
+      "quota-monitor",
+      "rest-api",
+      "sub2api",
+      "usage-dashboard"
+    ],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "sub2api",
+    "owner": "unorouter",
+    "full_name": "unorouter/sub2api",
+    "url": "https://github.com/unorouter/sub2api",
+    "stars": 0,
+    "pushed": "2026-04-24",
+    "summary": "Subscription aggregator for unorouter.ai. Exposes personal AI subscription accounts (Anthropic, OpenAI, Gemini) as API endpoints with scheduling and quota management.",
+    "tags": [
+      "ai-api",
+      "anthropic",
+      "gemini",
+      "openai",
+      "subscription",
+      "unorouter"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
+    "name": "gemini-2api",
+    "owner": "sabyaghosh",
+    "full_name": "sabyaghosh/gemini-2api",
+    "url": "https://github.com/sabyaghosh/gemini-2api",
+    "stars": 0,
+    "pushed": "2026-04-23",
+    "summary": "OpenAI-compatible API proxy for Google Gemini web chat",
+    "tags": [],
+    "models": [
+      "OpenAI",
+      "Gemini",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-04-25"
+  },
+  {
     "name": "sub2api-grok",
     "owner": "yunfanxing6",
     "full_name": "yunfanxing6/sub2api-grok",
@@ -149,34 +363,6 @@
     "first_seen": "2026-04-06"
   },
   {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 10122,
-    "pushed": "2026-04-03",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-04"
-  },
-  {
     "name": "claude-code-gateway",
     "owner": "MamoWorks",
     "full_name": "MamoWorks/claude-code-gateway",
@@ -277,24 +463,6 @@
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-03-26"
-  },
-  {
-    "name": "sub2api",
-    "owner": "DR-lin-eng",
-    "full_name": "DR-lin-eng/sub2api",
-    "url": "https://github.com/DR-lin-eng/sub2api",
-    "stars": 0,
-    "pushed": "2026-03-24",
-    "summary": "个人自用二开，主要是性能优化，但是由于代码差距过大，所以脱离fork。Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-03-25"
   },
   {
     "name": "sub2api",

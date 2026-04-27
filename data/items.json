@@ -1,5 +1,65 @@
 [
   {
+    "name": "Sub2Api-Desktop",
+    "owner": "LoveLosita",
+    "full_name": "LoveLosita/Sub2Api-Desktop",
+    "url": "https://github.com/LoveLosita/Sub2Api-Desktop",
+    "stars": 0,
+    "pushed": "2026-04-27",
+    "summary": "A desktop reverse proxy for AI APIs (Claude/OpenAI/Gemini) with multi-account management, load   balancing, failover, and usage tracking. Built with Wails (Go + Vue.js).",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-27"
+  },
+  {
+    "name": "sub2api",
+    "owner": "aptidus",
+    "full_name": "aptidus/sub2api",
+    "url": "https://github.com/aptidus/sub2api",
+    "stars": 0,
+    "pushed": "2026-04-27",
+    "summary": "API-key LLM proxy (Z.ai GLM, Ollama Cloud, DeepSeek) — unmodified Wei-Shaw/sub2api deployment",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-27"
+  },
+  {
+    "name": "metapi",
+    "owner": "cita-777",
+    "full_name": "cita-777/metapi",
+    "url": "https://github.com/cita-777/metapi",
+    "stars": 2303,
+    "pushed": "2026-04-26",
+    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-04-27"
+  },
+  {
+    "name": "2api-LLM-gateway",
+    "owner": "FencyJay",
+    "full_name": "FencyJay/2api-LLM-gateway",
+    "url": "https://github.com/FencyJay/2api-LLM-gateway",
+    "stars": 0,
+    "pushed": "2026-04-26",
+    "summary": "",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-04-27"
+  },
+  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",
@@ -255,20 +315,6 @@
     "category": "Gateway / 管理面板",
     "source": "daily-scout",
     "first_seen": "2026-04-09"
-  },
-  {
-    "name": "metapi",
-    "owner": "cita-777",
-    "full_name": "cita-777/metapi",
-    "url": "https://github.com/cita-777/metapi",
-    "stars": 1715,
-    "pushed": "2026-04-05",
-    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
-    "tags": [],
-    "models": [],
-    "category": "Gateway / 管理面板",
-    "source": "daily-scout",
-    "first_seen": "2026-04-06"
   },
   {
     "name": "notion-2api",

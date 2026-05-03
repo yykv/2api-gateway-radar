@@ -1,5 +1,159 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 17276,
+    "pushed": "2026-05-02",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-03"
+  },
+  {
+    "name": "HelloGML",
+    "owner": "Hello-Application-XH",
+    "full_name": "Hello-Application-XH/HelloGML",
+    "url": "https://github.com/Hello-Application-XH/HelloGML",
+    "stars": 121,
+    "pushed": "2026-05-02",
+    "summary": "智谱清言网页版的 Cloudflare Worker 2API层，提供 OpenAI / Claude / Gemini 三种协议兼容接口，支持流式对话、Tools调用、AI 绘图、视频生成与多账号 Token 轮询。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-03"
+  },
+  {
+    "name": "airgate-core",
+    "owner": "DouDOU-start",
+    "full_name": "DouDOU-start/airgate-core",
+    "url": "https://github.com/DouDOU-start/airgate-core",
+    "stars": 22,
+    "pushed": "2026-05-02",
+    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
+    "tags": [
+      "2api",
+      "account-sharing",
+      "ai-gateway",
+      "claude-2api",
+      "multi-account",
+      "openai-2api",
+      "plugin-system"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-03"
+  },
+  {
+    "name": "mimo-2api",
+    "owner": "rong6",
+    "full_name": "rong6/mimo-2api",
+    "url": "https://github.com/rong6/mimo-2api",
+    "stars": 19,
+    "pushed": "2026-05-02",
+    "summary": "🔁把 Xiaomi MiMo Studio网页端对话 API 转为标准 OpenAI Chat Completions 格式，支持多账号负载均衡。",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-03"
+  },
+  {
+    "name": "sub2api",
+    "owner": "DR-lin-eng",
+    "full_name": "DR-lin-eng/sub2api",
+    "url": "https://github.com/DR-lin-eng/sub2api",
+    "stars": 5,
+    "pushed": "2026-05-02",
+    "summary": "个人自用二开，主要是性能优化，但是由于代码差距过大，所以脱离fork。Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-03"
+  },
+  {
+    "name": "chatgpt-2api",
+    "owner": "sabyaghosh",
+    "full_name": "sabyaghosh/chatgpt-2api",
+    "url": "https://github.com/sabyaghosh/chatgpt-2api",
+    "stars": 0,
+    "pushed": "2026-05-01",
+    "summary": "OpenAI-compatible API proxy for ChatGPT web chat — converts ChatGPT to standard Chat Completions format with tool calling, streaming, reasoning, and multi-account load balancing",
+    "tags": [],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-05-01"
+  },
+  {
+    "name": "sub2api-clandes",
+    "owner": "StarryKira",
+    "full_name": "StarryKira/sub2api-clandes",
+    "url": "https://github.com/StarryKira/sub2api-clandes",
+    "stars": 3,
+    "pushed": "2026-04-30",
+    "summary": "sub2api fork with clandes (Rust proxy) integration",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-01"
+  },
+  {
+    "name": "sub2api-R",
+    "owner": "Rogers-F",
+    "full_name": "Rogers-F/sub2api-R",
+    "url": "https://github.com/Rogers-F/sub2api-R",
+    "stars": 0,
+    "pushed": "2026-04-30",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-01"
+  },
+  {
     "name": "Sub2Api-Desktop",
     "owner": "LoveLosita",
     "full_name": "LoveLosita/Sub2Api-Desktop",
@@ -60,34 +214,6 @@
     "first_seen": "2026-04-27"
   },
   {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 15243,
-    "pushed": "2026-04-25",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
     "name": "windsurf-proxy-go",
     "owner": "lookcorner",
     "full_name": "lookcorner/windsurf-proxy-go",
@@ -99,24 +225,6 @@
     "models": [
       "Claude",
       "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
-    "name": "sub2api",
-    "owner": "DR-lin-eng",
-    "full_name": "DR-lin-eng/sub2api",
-    "url": "https://github.com/DR-lin-eng/sub2api",
-    "stars": 5,
-    "pushed": "2026-04-25",
-    "summary": "个人自用二开，主要是性能优化，但是由于代码差距过大，所以脱离fork。Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
     ],
     "category": "Gateway / 平台",
     "source": "daily-scout",
@@ -156,31 +264,6 @@
     "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API warehouses.",
     "tags": [],
     "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
-    "name": "airgate-core",
-    "owner": "DouDOU-start",
-    "full_name": "DouDOU-start/airgate-core",
-    "url": "https://github.com/DouDOU-start/airgate-core",
-    "stars": 13,
-    "pushed": "2026-04-24",
-    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
-    "tags": [
-      "2api",
-      "account-sharing",
-      "ai-gateway",
-      "claude-2api",
-      "multi-account",
-      "openai-2api",
-      "plugin-system"
-    ],
-    "models": [
-      "Claude",
       "OpenAI"
     ],
     "category": "Gateway / 平台",
@@ -341,22 +424,6 @@
       "typescript",
       "webhooks"
     ],
-    "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-06"
-  },
-  {
-    "name": "mimo-2api",
-    "owner": "rong6",
-    "full_name": "rong6/mimo-2api",
-    "url": "https://github.com/rong6/mimo-2api",
-    "stars": 1,
-    "pushed": "2026-04-05",
-    "summary": "🔁把 Xiaomi MiMo Studio网页端对话 API 转为标准 OpenAI Chat Completions 格式，支持多账号负载均衡。",
-    "tags": [],
     "models": [
       "OpenAI"
     ],

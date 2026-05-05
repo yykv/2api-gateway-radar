@@ -1,5 +1,161 @@
 [
   {
+    "name": "all-api-hub",
+    "owner": "qixing-jk",
+    "full_name": "qixing-jk/all-api-hub",
+    "url": "https://github.com/qixing-jk/all-api-hub",
+    "stars": 3349,
+    "pushed": "2026-05-04",
+    "summary": "​一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理 | All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management",
+    "tags": [
+      "ai",
+      "cc-switch",
+      "chatgpt",
+      "chatgpt-api",
+      "cherrystudio",
+      "claude",
+      "claude-code",
+      "cliproxyapi",
+      "codex",
+      "new-api",
+      "newapi",
+      "one-api",
+      "openai",
+      "sub2api",
+      "voapi"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
+    "name": "chatgpt2api",
+    "owner": "basketikun",
+    "full_name": "basketikun/chatgpt2api",
+    "url": "https://github.com/basketikun/chatgpt2api",
+    "stars": 1919,
+    "pushed": "2026-05-04",
+    "summary": "ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容OpenAI接口协议，在线批量生图/编辑图，号池管理，支持导入CPA、sub2api号池 、支持接入Cherry  Studio、New Api 等软件",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
+    "name": "Antigravity2Api",
+    "owner": "anshulrules",
+    "full_name": "anshulrules/Antigravity2Api",
+    "url": "https://github.com/anshulrules/Antigravity2Api",
+    "stars": 9,
+    "pushed": "2026-05-04",
+    "summary": "🚀 Transform Antigravity into standard Claude and Gemini APIs, enabling seamless tool use, structured outputs, and workaround support for MCP issues.",
+    "tags": [
+      "2api",
+      "account-manager",
+      "ai-agent",
+      "backend",
+      "cc2api",
+      "claude",
+      "cloud",
+      "crs2",
+      "flow2api",
+      "gemini-pro",
+      "geminibusiness2api",
+      "google",
+      "grok2api",
+      "http",
+      "javascript",
+      "real-time",
+      "serverless",
+      "sora2api"
+    ],
+    "models": [
+      "Claude",
+      "Gemini"
+    ],
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
+    "name": "canvas-realm-gpt-image-2-studio",
+    "owner": "laolin5564",
+    "full_name": "laolin5564/canvas-realm-gpt-image-2-studio",
+    "url": "https://github.com/laolin5564/canvas-realm-gpt-image-2-studio",
+    "stars": 8,
+    "pushed": "2026-05-04",
+    "summary": "Self-hosted GPT Image 2 / Image-2 workbench for teams: text-to-image, image-to-image, templates, quotas, history and admin dashboard.",
+    "tags": [
+      "ai-image-generator",
+      "gpt-image-2",
+      "image-2",
+      "image-to-image",
+      "nextjs",
+      "openai-compatible",
+      "self-hosted",
+      "sqlite",
+      "sub2api",
+      "text-to-image"
+    ],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
+    "name": "sub2api",
+    "owner": "unorouter",
+    "full_name": "unorouter/sub2api",
+    "url": "https://github.com/unorouter/sub2api",
+    "stars": 0,
+    "pushed": "2026-05-04",
+    "summary": "Subscription aggregator for unorouter.ai. Exposes personal AI subscription accounts (Anthropic, OpenAI, Gemini) as API endpoints with scheduling and quota management.",
+    "tags": [
+      "ai-api",
+      "anthropic",
+      "gemini",
+      "openai",
+      "subscription",
+      "unorouter"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
+    "name": "HelloGML",
+    "owner": "tvvshow",
+    "full_name": "tvvshow/HelloGML",
+    "url": "https://github.com/tvvshow/HelloGML",
+    "stars": 0,
+    "pushed": "2026-05-04",
+    "summary": "智谱清言网页版 2API 层，支持 OpenAI/Claude/Gemini 三协议，Docker 一键部署",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-05"
+  },
+  {
     "name": "business-gemini-2api",
     "owner": "eric69eric",
     "full_name": "eric69eric/business-gemini-2api",
@@ -380,31 +536,6 @@
     "first_seen": "2026-04-25"
   },
   {
-    "name": "sub2api",
-    "owner": "unorouter",
-    "full_name": "unorouter/sub2api",
-    "url": "https://github.com/unorouter/sub2api",
-    "stars": 0,
-    "pushed": "2026-04-24",
-    "summary": "Subscription aggregator for unorouter.ai. Exposes personal AI subscription accounts (Anthropic, OpenAI, Gemini) as API endpoints with scheduling and quota management.",
-    "tags": [
-      "ai-api",
-      "anthropic",
-      "gemini",
-      "openai",
-      "subscription",
-      "unorouter"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
     "name": "gemini-2api",
     "owner": "sabyaghosh",
     "full_name": "sabyaghosh/gemini-2api",
@@ -669,37 +800,6 @@
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-03-23"
-  },
-  {
-    "name": "all-api-hub",
-    "owner": "qixing-jk",
-    "full_name": "qixing-jk/all-api-hub",
-    "url": "https://github.com/qixing-jk/all-api-hub",
-    "stars": 2300,
-    "pushed": "2026-03-21",
-    "summary": "一站式管理 New API 兼容中转站账号：余额/用量看板、自动签到、密钥一键导出到常用应用、网页内 API 可用性测试、渠道与模型同步/重定向 | New‑API relay manager: balance/usage, auto check‑in, one‑click key export to popular clients, in‑page API checks, channel/model sync & redirect",
-    "tags": [
-      "cc-switch",
-      "chatgpt",
-      "chatgpt-api",
-      "cherrystudio",
-      "claude",
-      "claude-code",
-      "cliproxyapi",
-      "codex",
-      "new-api",
-      "one-api",
-      "openai",
-      "sub2api",
-      "voapi"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI"
-    ],
-    "category": "Gateway / 管理面板",
-    "source": "daily-scout",
-    "first_seen": "2026-03-21"
   },
   {
     "name": "AntiHub-ALL",

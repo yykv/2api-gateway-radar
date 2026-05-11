@@ -1,5 +1,220 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 19632,
+    "pushed": "2026-05-11",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "airgate-core",
+    "owner": "DouDOU-start",
+    "full_name": "DouDOU-start/airgate-core",
+    "url": "https://github.com/DouDOU-start/airgate-core",
+    "stars": 27,
+    "pushed": "2026-05-11",
+    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
+    "tags": [
+      "2api",
+      "account-sharing",
+      "ai-gateway",
+      "claude-2api",
+      "multi-account",
+      "openai-2api",
+      "plugin-system"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "smithery-2api",
+    "owner": "ZaClown122",
+    "full_name": "ZaClown122/smithery-2api",
+    "url": "https://github.com/ZaClown122/smithery-2api",
+    "stars": 4,
+    "pushed": "2026-05-11",
+    "summary": "🤖 Transform Smithery.ai's AI capabilities into a seamless OpenAI API format, enabling easy integration into your applications.",
+    "tags": [
+      "api",
+      "backend",
+      "database",
+      "express",
+      "integration",
+      "javascript",
+      "json",
+      "microservices",
+      "middleware",
+      "nodejs",
+      "open-source",
+      "rest-api",
+      "smithery",
+      "testing",
+      "web-development"
+    ],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "chids-2api-or",
+    "owner": "cosminmrggxsh",
+    "full_name": "cosminmrggxsh/chids-2api-or",
+    "url": "https://github.com/cosminmrggxsh/chids-2api-or",
+    "stars": 3,
+    "pushed": "2026-05-11",
+    "summary": "🌐 Manage multiple accounts efficiently with Orchids-2api, a Go-based API proxy for seamless load balancing and Claude API request forwarding.",
+    "tags": [
+      "3d-printer",
+      "cdc",
+      "combinatorial-optimization",
+      "coronavirus",
+      "covid",
+      "csv",
+      "discord",
+      "disease",
+      "json",
+      "optimization",
+      "orca",
+      "orchardcore",
+      "polkadot",
+      "polkadot-js",
+      "postman",
+      "redis",
+      "substrate",
+      "web3",
+      "wordpress"
+    ],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "ersub",
+    "owner": "pachulisk",
+    "full_name": "pachulisk/ersub",
+    "url": "https://github.com/pachulisk/ersub",
+    "stars": 0,
+    "pushed": "2026-05-11",
+    "summary": "ErSub — Erlang/OTP + CLIPS AI API Gateway (sub2api reimplementation)",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "sub2api-R",
+    "owner": "Rogers-F",
+    "full_name": "Rogers-F/sub2api-R",
+    "url": "https://github.com/Rogers-F/sub2api-R",
+    "stars": 0,
+    "pushed": "2026-05-10",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-11"
+  },
+  {
+    "name": "OpenAiGPT_image_2API",
+    "owner": "BoGuYoYo",
+    "full_name": "BoGuYoYo/OpenAiGPT_image_2API",
+    "url": "https://github.com/BoGuYoYo/OpenAiGPT_image_2API",
+    "stars": 1,
+    "pushed": "2026-05-07",
+    "summary": "OpenAI第三方API接入",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-07"
+  },
+  {
+    "name": "sub2api",
+    "owner": "aptidus",
+    "full_name": "aptidus/sub2api",
+    "url": "https://github.com/aptidus/sub2api",
+    "stars": 0,
+    "pushed": "2026-05-07",
+    "summary": "API-key LLM proxy (Z.ai GLM, Ollama Cloud, DeepSeek) — unmodified Wei-Shaw/sub2api deployment",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-07"
+  },
+  {
+    "name": "linuxdo",
+    "owner": "tvvshow",
+    "full_name": "tvvshow/linuxdo",
+    "url": "https://github.com/tvvshow/linuxdo",
+    "stars": 0,
+    "pushed": "2026-05-07",
+    "summary": "ChatGPT batch registration & account management panel — pure Python auth_core with /sentinel/req direct token, 15+ email providers, multi-platform SMS verification, proxy rotation (SingBox/Clash/Sub2API), OAuth token extraction, keepalive loop, and Docker-ready deployment.",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-07"
+  },
+  {
+    "name": "openai-cpa",
+    "owner": "wenfxl",
+    "full_name": "wenfxl/openai-cpa",
+    "url": "https://github.com/wenfxl/openai-cpa",
+    "stars": 1102,
+    "pushed": "2026-05-06",
+    "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API/Image2API warehouses.",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-07"
+  },
+  {
     "name": "all-api-hub",
     "owner": "qixing-jk",
     "full_name": "qixing-jk/all-api-hub",
@@ -190,66 +405,6 @@
     "first_seen": "2026-05-03"
   },
   {
-    "name": "smithery-2api",
-    "owner": "ZaClown122",
-    "full_name": "ZaClown122/smithery-2api",
-    "url": "https://github.com/ZaClown122/smithery-2api",
-    "stars": 4,
-    "pushed": "2026-05-03",
-    "summary": "🤖 Transform Smithery.ai's AI capabilities into a seamless OpenAI API format, enabling easy integration into your applications.",
-    "tags": [
-      "api",
-      "backend",
-      "database",
-      "express",
-      "integration",
-      "javascript",
-      "json",
-      "microservices",
-      "middleware",
-      "nodejs",
-      "open-source",
-      "rest-api",
-      "smithery",
-      "testing",
-      "web-development"
-    ],
-    "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-03"
-  },
-  {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 17276,
-    "pushed": "2026-05-02",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-03"
-  },
-  {
     "name": "HelloGML",
     "owner": "Hello-Application-XH",
     "full_name": "Hello-Application-XH/HelloGML",
@@ -262,31 +417,6 @@
       "Claude",
       "OpenAI",
       "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-03"
-  },
-  {
-    "name": "airgate-core",
-    "owner": "DouDOU-start",
-    "full_name": "DouDOU-start/airgate-core",
-    "url": "https://github.com/DouDOU-start/airgate-core",
-    "stars": 22,
-    "pushed": "2026-05-02",
-    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
-    "tags": [
-      "2api",
-      "account-sharing",
-      "ai-gateway",
-      "claude-2api",
-      "multi-account",
-      "openai-2api",
-      "plugin-system"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI"
     ],
     "category": "Gateway / 平台",
     "source": "daily-scout",
@@ -358,24 +488,6 @@
     "first_seen": "2026-05-01"
   },
   {
-    "name": "sub2api-R",
-    "owner": "Rogers-F",
-    "full_name": "Rogers-F/sub2api-R",
-    "url": "https://github.com/Rogers-F/sub2api-R",
-    "stars": 0,
-    "pushed": "2026-04-30",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-01"
-  },
-  {
     "name": "Sub2Api-Desktop",
     "owner": "LoveLosita",
     "full_name": "LoveLosita/Sub2Api-Desktop",
@@ -389,20 +501,6 @@
       "OpenAI",
       "Gemini"
     ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-27"
-  },
-  {
-    "name": "sub2api",
-    "owner": "aptidus",
-    "full_name": "aptidus/sub2api",
-    "url": "https://github.com/aptidus/sub2api",
-    "stars": 0,
-    "pushed": "2026-04-27",
-    "summary": "API-key LLM proxy (Z.ai GLM, Ollama Cloud, DeepSeek) — unmodified Wei-Shaw/sub2api deployment",
-    "tags": [],
-    "models": [],
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-04-27"
@@ -473,22 +571,6 @@
       "OpenAI-compatible"
     ],
     "category": "Gemini / Business",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
-    "name": "openai-cpa",
-    "owner": "wenfxl",
-    "full_name": "wenfxl/openai-cpa",
-    "url": "https://github.com/wenfxl/openai-cpa",
-    "stars": 937,
-    "pushed": "2026-04-24",
-    "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API warehouses.",
-    "tags": [],
-    "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-04-25"
   },

@@ -1,5 +1,49 @@
 [
   {
+    "name": "openai-cpa",
+    "owner": "wenfxl",
+    "full_name": "wenfxl/openai-cpa",
+    "url": "https://github.com/wenfxl/openai-cpa",
+    "stars": 1193,
+    "pushed": "2026-05-15",
+    "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API/Image2API warehouses.",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-15"
+  },
+  {
+    "name": "sub2api-clandes",
+    "owner": "StarryKira",
+    "full_name": "StarryKira/sub2api-clandes",
+    "url": "https://github.com/StarryKira/sub2api-clandes",
+    "stars": 3,
+    "pushed": "2026-05-14",
+    "summary": "sub2api fork with clandes (Rust proxy) integration",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-15"
+  },
+  {
+    "name": "sub2api-proxy",
+    "owner": "vivy1024",
+    "full_name": "vivy1024/sub2api-proxy",
+    "url": "https://github.com/vivy1024/sub2api-proxy",
+    "stars": 0,
+    "pushed": "2026-05-14",
+    "summary": "Nginx reverse proxy for api.yuzhen-fitness.cn → api.vivy1024.cc (Zeabur deployment)",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-15"
+  },
+  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",
@@ -195,22 +239,6 @@
       "OpenAI"
     ],
     "category": "Gateway / 管理面板",
-    "source": "daily-scout",
-    "first_seen": "2026-05-07"
-  },
-  {
-    "name": "openai-cpa",
-    "owner": "wenfxl",
-    "full_name": "wenfxl/openai-cpa",
-    "url": "https://github.com/wenfxl/openai-cpa",
-    "stars": 1102,
-    "pushed": "2026-05-06",
-    "summary": "Distributed Automation Platform with Dual-Engine (High-speed Protocol + Anti-detection Browser) for high-scale registration. Orchestrates cluster workers, mail engines, and CPA/Sub2API/Image2API warehouses.",
-    "tags": [],
-    "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-05-07"
   },
@@ -470,20 +498,6 @@
       "OpenAI-compatible"
     ],
     "category": "Bridge / 兼容层",
-    "source": "daily-scout",
-    "first_seen": "2026-05-01"
-  },
-  {
-    "name": "sub2api-clandes",
-    "owner": "StarryKira",
-    "full_name": "StarryKira/sub2api-clandes",
-    "url": "https://github.com/StarryKira/sub2api-clandes",
-    "stars": 3,
-    "pushed": "2026-04-30",
-    "summary": "sub2api fork with clandes (Rust proxy) integration",
-    "tags": [],
-    "models": [],
-    "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-05-01"
   },

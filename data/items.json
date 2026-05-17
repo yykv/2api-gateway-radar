@@ -1,5 +1,21 @@
 [
   {
+    "name": "sub2apis",
+    "owner": "Cc-kris",
+    "full_name": "Cc-kris/sub2apis",
+    "url": "https://github.com/Cc-kris/sub2apis",
+    "stars": 0,
+    "pushed": "2026-05-16",
+    "summary": "sub2api魔改版本，openai接口已适配codex",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-17"
+  },
+  {
     "name": "openai-cpa",
     "owner": "wenfxl",
     "full_name": "wenfxl/openai-cpa",

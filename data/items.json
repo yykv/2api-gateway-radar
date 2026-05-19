@@ -1,5 +1,95 @@
 [
   {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 21781,
+    "pushed": "2026-05-19",
+    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-19"
+  },
+  {
+    "name": "sub2api",
+    "owner": "shudonglin",
+    "full_name": "shudonglin/sub2api",
+    "url": "https://github.com/shudonglin/sub2api",
+    "stars": 0,
+    "pushed": "2026-05-19",
+    "summary": "AI API gateway — distribute and manage API quotas from AI product subscriptions. Downstream of Wei-Shaw/sub2api (LGPL-3.0).",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-19"
+  },
+  {
+    "name": "airgate-core",
+    "owner": "DouDOU-start",
+    "full_name": "DouDOU-start/airgate-core",
+    "url": "https://github.com/DouDOU-start/airgate-core",
+    "stars": 34,
+    "pushed": "2026-05-18",
+    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
+    "tags": [
+      "2api",
+      "account-sharing",
+      "ai-gateway",
+      "claude-2api",
+      "kiro-2api",
+      "multi-account",
+      "openai-2api",
+      "plugin-system"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-19"
+  },
+  {
+    "name": "sub2api-finance",
+    "owner": "LMU-AI",
+    "full_name": "LMU-AI/sub2api-finance",
+    "url": "https://github.com/LMU-AI/sub2api-finance",
+    "stars": 0,
+    "pushed": "2026-05-18",
+    "summary": "灵眸 AI 出品 · 为 sub2api 打造的开源 Claude API 中转站财务分析面板",
+    "tags": [
+      "api-gateway",
+      "claude-api",
+      "claude-api-proxy",
+      "finance-dashboard",
+      "sub2api"
+    ],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-19"
+  },
+  {
     "name": "sub2apis",
     "owner": "Cc-kris",
     "full_name": "Cc-kris/sub2apis",
@@ -58,59 +148,6 @@
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-05-15"
-  },
-  {
-    "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 19632,
-    "pushed": "2026-05-11",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-11"
-  },
-  {
-    "name": "airgate-core",
-    "owner": "DouDOU-start",
-    "full_name": "DouDOU-start/airgate-core",
-    "url": "https://github.com/DouDOU-start/airgate-core",
-    "stars": 27,
-    "pushed": "2026-05-11",
-    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
-    "tags": [
-      "2api",
-      "account-sharing",
-      "ai-gateway",
-      "claude-2api",
-      "multi-account",
-      "openai-2api",
-      "plugin-system"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-11"
   },
   {
     "name": "smithery-2api",

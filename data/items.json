@@ -1,5 +1,36 @@
 [
   {
+    "name": "prompt-guard",
+    "owner": "YUYUEYUER",
+    "full_name": "YUYUEYUER/prompt-guard",
+    "url": "https://github.com/YUYUEYUER/prompt-guard",
+    "stars": 3,
+    "pushed": "2026-05-21",
+    "summary": "Lightweight, low-latency prompt interception gateway for sub2api and new-api.",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-21"
+  },
+  {
+    "name": "sub2api",
+    "owner": "xiachen332",
+    "full_name": "xiachen332/sub2api",
+    "url": "https://github.com/xiachen332/sub2api",
+    "stars": 0,
+    "pushed": "2026-05-20",
+    "summary": "Sub2API - Simplified ChatGPT Backend API Proxy with OpenAI-compatible interface",
+    "tags": [],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-05-21"
+  },
+  {
     "name": "sub2api",
     "owner": "Wei-Shaw",
     "full_name": "Wei-Shaw/sub2api",

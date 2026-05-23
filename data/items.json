@@ -1,5 +1,104 @@
 [
   {
+    "name": "relay-switch",
+    "owner": "xiaoyuandev",
+    "full_name": "xiaoyuandev/relay-switch",
+    "url": "https://github.com/xiaoyuandev/relay-switch",
+    "stars": 23,
+    "pushed": "2026-05-23",
+    "summary": "One-click switching and management of major relay API services, with native integration for official large language models. It provides a unified interface for local AI tools, eliminating the need to manually switch configuration files. | 一键切换管理各大中转API服务、支持官方原生大模型接入。为本地AI工具提供统一接口，无需手动切换配置文件。",
+    "tags": [
+      "ai-gateway",
+      "claude-code",
+      "model-router-controller",
+      "new-api",
+      "openai-api",
+      "proxy-api",
+      "relay-api",
+      "sub2api"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-23"
+  },
+  {
+    "name": "HelloKimi",
+    "owner": "Hello-Application-XH",
+    "full_name": "Hello-Application-XH/HelloKimi",
+    "url": "https://github.com/Hello-Application-XH/HelloKimi",
+    "stars": 0,
+    "pushed": "2026-05-23",
+    "summary": "Kimi的 Cloudflare Worker 2API层，提供 OpenAI协议兼容接口，支持流式对话、Tools调用。无需配置，部署即用。",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-23"
+  },
+  {
+    "name": "all-api-hub",
+    "owner": "qixing-jk",
+    "full_name": "qixing-jk/all-api-hub",
+    "url": "https://github.com/qixing-jk/all-api-hub",
+    "stars": 3690,
+    "pushed": "2026-05-22",
+    "summary": "​一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理 | All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management",
+    "tags": [
+      "ai",
+      "cc-switch",
+      "chatgpt",
+      "chatgpt-api",
+      "cherrystudio",
+      "claude",
+      "claude-code",
+      "cliproxyapi",
+      "codex",
+      "new-api",
+      "newapi",
+      "one-api",
+      "openai",
+      "sub2api",
+      "voapi"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-23"
+  },
+  {
+    "name": "gemini-business2api",
+    "owner": "yukkcat",
+    "full_name": "yukkcat/gemini-business2api",
+    "url": "https://github.com/yukkcat/gemini-business2api",
+    "stars": 1272,
+    "pushed": "2026-05-21",
+    "summary": "OpenAI-compatible API for Gemini Business with multi-account load balancing and multimodal capabilities (image/video generation, file parsing) | 将 Gemini Business 转为 OpenAI 兼容接口，支持多账户负载均衡及多模态能力（图像生成、视频生成、解析文件）",
+    "tags": [
+      "2api",
+      "business",
+      "chatgpt",
+      "gemini",
+      "openai"
+    ],
+    "models": [
+      "OpenAI",
+      "Gemini",
+      "OpenAI-compatible"
+    ],
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-05-23"
+  },
+  {
     "name": "prompt-guard",
     "owner": "YUYUEYUER",
     "full_name": "YUYUEYUER/prompt-guard",
@@ -327,39 +426,6 @@
     "first_seen": "2026-05-07"
   },
   {
-    "name": "all-api-hub",
-    "owner": "qixing-jk",
-    "full_name": "qixing-jk/all-api-hub",
-    "url": "https://github.com/qixing-jk/all-api-hub",
-    "stars": 3349,
-    "pushed": "2026-05-04",
-    "summary": "​一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理 | All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management",
-    "tags": [
-      "ai",
-      "cc-switch",
-      "chatgpt",
-      "chatgpt-api",
-      "cherrystudio",
-      "claude",
-      "claude-code",
-      "cliproxyapi",
-      "codex",
-      "new-api",
-      "newapi",
-      "one-api",
-      "openai",
-      "sub2api",
-      "voapi"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI"
-    ],
-    "category": "Gateway / 管理面板",
-    "source": "daily-scout",
-    "first_seen": "2026-05-05"
-  },
-  {
     "name": "chatgpt2api",
     "owner": "basketikun",
     "full_name": "basketikun/chatgpt2api",
@@ -645,30 +711,6 @@
       "OpenAI"
     ],
     "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-25"
-  },
-  {
-    "name": "gemini-business2api",
-    "owner": "yukkcat",
-    "full_name": "yukkcat/gemini-business2api",
-    "url": "https://github.com/yukkcat/gemini-business2api",
-    "stars": 1233,
-    "pushed": "2026-04-24",
-    "summary": "OpenAI-compatible API for Gemini Business with multi-account load balancing and multimodal capabilities (image/video generation, file parsing) | 将 Gemini Business 转为 OpenAI 兼容接口，支持多账户负载均衡及多模态能力（图像生成、视频生成、解析文件）",
-    "tags": [
-      "2api",
-      "business",
-      "chatgpt",
-      "gemini",
-      "openai"
-    ],
-    "models": [
-      "OpenAI",
-      "Gemini",
-      "OpenAI-compatible"
-    ],
-    "category": "Gemini / Business",
     "source": "daily-scout",
     "first_seen": "2026-04-25"
   },

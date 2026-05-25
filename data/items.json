@@ -1,5 +1,19 @@
 [
   {
+    "name": "metapi",
+    "owner": "cita-777",
+    "full_name": "cita-777/metapi",
+    "url": "https://github.com/cita-777/metapi",
+    "stars": 2620,
+    "pushed": "2026-05-24",
+    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
+    "tags": [],
+    "models": [],
+    "category": "Gateway / 管理面板",
+    "source": "daily-scout",
+    "first_seen": "2026-05-25"
+  },
+  {
     "name": "relay-switch",
     "owner": "xiaoyuandev",
     "full_name": "xiaoyuandev/relay-switch",
@@ -666,20 +680,6 @@
       "Gemini"
     ],
     "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-04-27"
-  },
-  {
-    "name": "metapi",
-    "owner": "cita-777",
-    "full_name": "cita-777/metapi",
-    "url": "https://github.com/cita-777/metapi",
-    "stars": 2303,
-    "pushed": "2026-04-26",
-    "summary": "把你在各处注册的 New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API 等站点， 汇聚成 一个 API Key、一个入口，自动发现模型、智能路由、成本最优",
-    "tags": [],
-    "models": [],
-    "category": "Gateway / 管理面板",
     "source": "daily-scout",
     "first_seen": "2026-04-27"
   },

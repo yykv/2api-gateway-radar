@@ -1,5 +1,195 @@
 [
   {
+    "name": "awesome-claude-api",
+    "owner": "peter123023",
+    "full_name": "peter123023/awesome-claude-api",
+    "url": "https://github.com/peter123023/awesome-claude-api",
+    "stars": 328,
+    "pushed": "2026-05-27",
+    "summary": "收集和整理的可靠Claude中转API资源列表，帮助开发者快速找到稳定、高性价比的Claude API服务",
+    "tags": [
+      "api",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-code",
+      "llm",
+      "new-api",
+      "openrouter",
+      "sub2api"
+    ],
+    "models": [
+      "Claude"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "ferrogate",
+    "owner": "lianluo-esign",
+    "full_name": "lianluo-esign/ferrogate",
+    "url": "https://github.com/lianluo-esign/ferrogate",
+    "stars": 14,
+    "pushed": "2026-05-27",
+    "summary": "FerroGate is an open-source AI gateway and reverse proxy written in Rust. It is designed to route, secure, monitor, and control traffic to LLM providers such as OpenAI, Anthropic, Google Gemini, Azure OpenAI, and OpenAI-compatible APIs.",
+    "tags": [
+      "ai",
+      "ai-gateway",
+      "aigateway",
+      "infrastructure",
+      "new-api",
+      "reverse-proxy",
+      "sub2api"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "business-gemini-2api",
+    "owner": "eric69eric",
+    "full_name": "eric69eric/business-gemini-2api",
+    "url": "https://github.com/eric69eric/business-gemini-2api",
+    "stars": 5,
+    "pushed": "2026-05-27",
+    "summary": "🌐 Streamline your API interactions with this Flask-based Google Gemini Enterprise API proxy, featuring multi-account rotation and an OpenAI-compatible interface.",
+    "tags": [
+      "api-documentation",
+      "application-architecture",
+      "authentication",
+      "backend-development",
+      "business-api",
+      "cloud-infrastructure",
+      "data-processing",
+      "gemini-integration",
+      "json-requests",
+      "microservices",
+      "rest-api",
+      "service-architecture",
+      "user-management",
+      "version-control",
+      "web-services"
+    ],
+    "models": [
+      "OpenAI",
+      "Gemini",
+      "OpenAI-compatible"
+    ],
+    "category": "Gemini / Business",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "sub2apis",
+    "owner": "Cc-kris",
+    "full_name": "Cc-kris/sub2apis",
+    "url": "https://github.com/Cc-kris/sub2apis",
+    "stars": 1,
+    "pushed": "2026-05-27",
+    "summary": "sub2api魔改版本，openai接口已适配codex",
+    "tags": [],
+    "models": [
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "sub2api",
+    "owner": "Wei-Shaw",
+    "full_name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "stars": 23744,
+    "pushed": "2026-05-26",
+    "summary": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code",
+      "codex",
+      "crs",
+      "crs2",
+      "gemini"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI",
+      "Gemini"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "airgate-core",
+    "owner": "DouDOU-start",
+    "full_name": "DouDOU-start/airgate-core",
+    "url": "https://github.com/DouDOU-start/airgate-core",
+    "stars": 48,
+    "pushed": "2026-05-26",
+    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
+    "tags": [
+      "2api",
+      "account-sharing",
+      "ai-gateway",
+      "claude-2api",
+      "kiro-2api",
+      "multi-account",
+      "openai-2api",
+      "plugin-system"
+    ],
+    "models": [
+      "Claude",
+      "OpenAI"
+    ],
+    "category": "Gateway / 平台",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
+    "name": "model-flux",
+    "owner": "dabao-yi",
+    "full_name": "dabao-yi/model-flux",
+    "url": "https://github.com/dabao-yi/model-flux",
+    "stars": 5,
+    "pushed": "2026-05-26",
+    "summary": "ModelFlux: OpenAI-compatible model traffic router with health-aware key-pool scheduling and failover",
+    "tags": [
+      "chat-completions",
+      "codex",
+      "docker",
+      "failover",
+      "key-pool",
+      "llm",
+      "llm-gateway",
+      "model-router",
+      "openai-api",
+      "openai-compatible",
+      "proxy",
+      "react",
+      "responses-api",
+      "sub2api",
+      "typescript"
+    ],
+    "models": [
+      "OpenAI",
+      "OpenAI-compatible"
+    ],
+    "category": "Bridge / 兼容层",
+    "source": "daily-scout",
+    "first_seen": "2026-05-27"
+  },
+  {
     "name": "metapi",
     "owner": "cita-777",
     "full_name": "cita-777/metapi",
@@ -145,34 +335,6 @@
   },
   {
     "name": "sub2api",
-    "owner": "Wei-Shaw",
-    "full_name": "Wei-Shaw/sub2api",
-    "url": "https://github.com/Wei-Shaw/sub2api",
-    "stars": 21781,
-    "pushed": "2026-05-19",
-    "summary": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "tags": [
-      "2api",
-      "antigravity2api",
-      "cc2api",
-      "claude",
-      "claude-code",
-      "codex",
-      "crs",
-      "crs2",
-      "gemini"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI",
-      "Gemini"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-19"
-  },
-  {
-    "name": "sub2api",
     "owner": "shudonglin",
     "full_name": "shudonglin/sub2api",
     "url": "https://github.com/shudonglin/sub2api",
@@ -181,32 +343,6 @@
     "summary": "AI API gateway — distribute and manage API quotas from AI product subscriptions. Downstream of Wei-Shaw/sub2api (LGPL-3.0).",
     "tags": [],
     "models": [],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-19"
-  },
-  {
-    "name": "airgate-core",
-    "owner": "DouDOU-start",
-    "full_name": "DouDOU-start/airgate-core",
-    "url": "https://github.com/DouDOU-start/airgate-core",
-    "stars": 34,
-    "pushed": "2026-05-18",
-    "summary": "插件化 AI 中转网关，平台能力以 gRPC 插件独立装载，支持多账号调度、计费与拼车共享，docker compose 一键自部署",
-    "tags": [
-      "2api",
-      "account-sharing",
-      "ai-gateway",
-      "claude-2api",
-      "kiro-2api",
-      "multi-account",
-      "openai-2api",
-      "plugin-system"
-    ],
-    "models": [
-      "Claude",
-      "OpenAI"
-    ],
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-05-19"
@@ -232,22 +368,6 @@
     "category": "Gateway / 管理面板",
     "source": "daily-scout",
     "first_seen": "2026-05-19"
-  },
-  {
-    "name": "sub2apis",
-    "owner": "Cc-kris",
-    "full_name": "Cc-kris/sub2apis",
-    "url": "https://github.com/Cc-kris/sub2apis",
-    "stars": 0,
-    "pushed": "2026-05-16",
-    "summary": "sub2api魔改版本，openai接口已适配codex",
-    "tags": [],
-    "models": [
-      "OpenAI"
-    ],
-    "category": "Gateway / 平台",
-    "source": "daily-scout",
-    "first_seen": "2026-05-17"
   },
   {
     "name": "openai-cpa",
@@ -561,40 +681,6 @@
     "category": "Gateway / 平台",
     "source": "daily-scout",
     "first_seen": "2026-05-05"
-  },
-  {
-    "name": "business-gemini-2api",
-    "owner": "eric69eric",
-    "full_name": "eric69eric/business-gemini-2api",
-    "url": "https://github.com/eric69eric/business-gemini-2api",
-    "stars": 5,
-    "pushed": "2026-05-03",
-    "summary": "🌐 Streamline your API interactions with this Flask-based Google Gemini Enterprise API proxy, featuring multi-account rotation and an OpenAI-compatible interface.",
-    "tags": [
-      "api-documentation",
-      "application-architecture",
-      "authentication",
-      "backend-development",
-      "business-api",
-      "cloud-infrastructure",
-      "data-processing",
-      "gemini-integration",
-      "json-requests",
-      "microservices",
-      "rest-api",
-      "service-architecture",
-      "user-management",
-      "version-control",
-      "web-services"
-    ],
-    "models": [
-      "OpenAI",
-      "Gemini",
-      "OpenAI-compatible"
-    ],
-    "category": "Gemini / Business",
-    "source": "daily-scout",
-    "first_seen": "2026-05-03"
   },
   {
     "name": "HelloGML",
